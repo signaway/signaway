@@ -34,6 +34,10 @@ $(function(){
     //   alert('Internal Server Error! :(');
     // });
  
+ 
+ /* success  make sure you show a message saying you are signed up */
+ /* error: internal error, etc */
+ 
     return false;
   });
 });
