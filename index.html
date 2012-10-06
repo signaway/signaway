@@ -10,33 +10,20 @@
   <meta name="robots" content="all">
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width">
   <link rel="stylesheet" href="assets/css/signaway.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css" type="text/css">
 </head>
 <body>
   <form id="signaway">
+  <h1>SignAway</h1>
     <ul>
-      <li>
-        <label for="firstName">First Name:</label>
-        <input id="firstName" type="text">
-      </li>
-      <li>
-        <label for="lastName">Last Name:</label>
-        <input id="lastName" type="text">
-      </li>
-      <li>
-        <label for="email">Email Address:</label>
-        <input id="email" type="text">
-      </li>
-      <li>
-        <label for="eventCode">Event Code:</label>
-        <input id="eventCode" type="text">
-      </li>
-      <li>
-        <input id="signup" type="submit" value="signaway">
-      </li>
+      <li><input id="firstName" type="text" placeholder="First Name"></li>
+      <li><input id="lastName" type="text" placeholder="Last Name"></li>
+      <li><input id="username" type="text" placeholder="Email"></li>
+      <li><input id="eventCode" type="text" placeholder="Event Code"></li>
+      <li><button class="btn btn-primary btn-large" type="submit" id="signup"><i class="icon-pencil icon-white"></i>  &nbsp;&nbsp;SignAway</button></li>
     </ul>
   </form>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="assets/js/signaway.js"></script>
-  <script src="assets/js/jquery.validate.min.js"></script>
 </body>
 </html>
